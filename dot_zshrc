@@ -1,0 +1,11 @@
+export EDITOR=code
+
+autoload -U promptinit; promptinit
+prompt pure
+
+plugins=(
+    git
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+    vscode
+)
